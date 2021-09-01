@@ -1,0 +1,59 @@
+/* styles for my resume */
+
+/* defauly style for body */
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em ;
+  color: #444444;
+  font-weight: 400;
+
+}
+
+/*"banner name at top"*/
+
+h1 {
+  font-size: 3em;
+  color: #33485e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* XXXXXX */
+img {
+  display:none;
+}
+
+/* XXXXXX */
+
+strong {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #33485e;
+}
+
+/* XXXXXX */
+
+h3{
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+}
+
+/* XXXXXX */
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+/* XXXXXX */
+
+h5 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+li {
+  font-size: 1em;
+}
