@@ -1,0 +1,199 @@
+/*style for my resume*/
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto
+
+}
+
+body{
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+
+}
+
+#color{
+  background-color: #ECECEC;
+}
+
+#homebutton1{
+ width: 380px;
+ background-color: #400010;
+}
+
+#homebutton2{
+  flex-wrap: wrap;
+  width: 380px;
+  background-color: #400010;
+}
+
+#homebutton3{
+  flex-wrap: wrap;
+  width: 380px;
+  background-color: #400010;
+}
+
+#pagetopper{
+  width: 100%;
+  height: 180px;
+}
+#name{
+  font-size:3em;
+  text-transform:uppercase;
+  text-align:center;
+  color: #400010;
+  border-bottom: 2px dashed #400010;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+#name2{
+  color: #400010;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 270px;
+
+}
+
+#title{
+  color:#400010;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.sectionheader{
+  margin: 20 0 10 0;
+  font-size: 1.5em;
+  text-transform:uppercase;
+  background-color: #400010;
+  color: #fff;
+  width: 70%;
+  min-width: 300px;
+}
+
+.jobtitle{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/*.organization{
+  font-size: 1.5em;
+  font-weight: 400;
+} */
+
+.date{
+  font-size: 1em:
+  font-weight:400;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/*
+ul{
+  font-size: 1.5em;
+}
+*/
+.menu{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.menu li{
+  display: inline;
+}
+
+.description{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#degrees{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#do{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.descriptiontop{
+text-align:left;
+font-size: 1.5em;
+padding-top: 70px;
+}
+
+.nobullets{
+list-style-type: none; /* Remove bullets */
+padding: 0;/* Remove padding */
+margin: 0;
+}
+
+.headshot{
+  padding-top: 70px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+#homepic{
+  Padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+@media only screen and (max-width:500px) {
+  body{
+    margin: auto;
+    width: 100%
+  }
+
+  #color{
+    background-color: white;
+  }
+}
+
+footer{
+  text-align:center;
+  margin: 20 0 10 0;
+  background-color: #400010;
+  color: #fff;
+  width: 100%;
+   min-width: 300px;
+   height: 75px
+}
+
+
+  /*add code here*/
+
+/*Give it a width of 60% with a minimum width of 300 pixels.
+ Center by giving adding "margin:0 auto;" and give
+ it a bottom margin of 30 pixels.*/
